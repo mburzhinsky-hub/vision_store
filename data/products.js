@@ -1,0 +1,72 @@
+window.VISION_PRODUCTS = [
+  {
+    id: "aulumu-m01",
+    number: "01",
+    category: "charging",
+    categoryLabel: "ЗАРЯДКА",
+    brand: "AULUMU",
+    name: "MO1 2.0",
+    subtitle: "MagSafe-станция 4-в-1",
+    description: "Складная станция для iPhone, Apple Watch и других устройств. Красивый индустриальный объект, который удобно брать с собой.",
+    microcopy: "СЛОЖИЛ. ЗАРЯДИЛ. ПОЕХАЛ.",
+    image: "./assets/01-alumu.jpg",
+    url: "https://market.yandex.ru/cc/B8avMv",
+    tags: ["MagSafe", "4-в-1", "USB-C"]
+  },
+  {
+    id: "sharge-flow-3",
+    number: "02",
+    category: "power",
+    categoryLabel: "ПИТАНИЕ",
+    brand: "SHARGE",
+    name: "Flow 3",
+    subtitle: "10 000 мА·ч · 45 Вт",
+    description: "Компактный пауэрбанк со встроенным USB-C кабелем и мощностью до 45 Вт. Тот случай, когда запас энергии не выглядит скучно.",
+    microcopy: "МАЛЕНЬКИЙ. МОЩНЫЙ. ГОТОВЫЙ.",
+    image: "./assets/02-sharge.jpg",
+    url: "https://market.yandex.ru/cc/B8awHt",
+    tags: ["10 000 мА·ч", "45 Вт", "USB-C"]
+  },
+  {
+    id: "cmf-watch-3-pro",
+    number: "03",
+    category: "wearables",
+    categoryLabel: "НОСИМЫЕ",
+    brand: "NOTHING / CMF",
+    name: "Watch 3 Pro",
+    subtitle: "1,43″ AMOLED · GPS · IP68",
+    description: "Часы в духе Nothing: чистая геометрия, спокойный дизайн и нужный набор функций без ощущения мини-смартфона на запястье.",
+    microcopy: "БОЛЬШЕ, ЧЕМ ПРОСТО ЧАСЫ.",
+    image: "./assets/03-cmf-watch.jpg",
+    url: "https://market.yandex.ru/cc/B8awYc",
+    tags: ["AMOLED", "GPS", "IP68"]
+  },
+  {
+    id: "moft-snap-field-wallet",
+    number: "04",
+    category: "carry",
+    categoryLabel: "С СОБОЙ",
+    brand: "MOFT",
+    name: "Snap Field Wallet",
+    subtitle: "MagSafe-органайзер",
+    description: "Мини-кошелёк и органайзер, который примагничивается к телефону. Карты и мелочи остаются под рукой, а сетап — собранным.",
+    microcopy: "МЕНЬШЕ В КАРМАНАХ.",
+    image: "./assets/04-moft-wallet.jpg",
+    url: "https://market.yandex.ru/cc/B8awqb",
+    tags: ["MagSafe", "Кошелёк", "Органайзер"]
+  },
+  {
+    id: "foldable-magnetic-stand",
+    number: "05",
+    category: "utility",
+    categoryLabel: "ПОЛЕЗНОЕ",
+    brand: "MAGNETIC",
+    name: "Foldable Stand",
+    subtitle: "Складной магнитный держатель",
+    description: "Карманная подставка и держатель для съёмки: стол, поезд, самолёт или быстрый созвон. Складывается в компактное кольцо.",
+    microcopy: "ПОСТАВИЛ. СНЯЛ. ПОЕХАЛ.",
+    image: "./assets/05-magnetic-stand.jpg",
+    url: "https://market.yandex.ru/cc/B8axXu",
+    tags: ["MagSafe", "Подставка", "Travel"]
+  }
+];
