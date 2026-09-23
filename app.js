@@ -109,8 +109,23 @@
     });
   }, { passive: true });
 
+  const isStandalone = window.matchMedia?.("(display-mode: standalone)").matches || window.navigator.standalone === true;
+  if (isStandalone) document.documentElement.classList.add("is-standalone");
+
+  document.addEventListener("click", event => {
+    if (!appShell.classList.contains("menu-open")) return;
+    if (event.target.closest(".topbar")) return;
+    appShell.classList.remove("menu-open");
+    mobileMenu.setAttribute("aria-expanded", "false");
+  });
+
   if ("serviceWorker" in navigator) {
-    window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(() => {}));
+    window.addEventListener("load", async () => {
+      try {
+        const registration = await navigator.serviceWorker.register("./sw.js");
+        registration.update();
+      } catch (_) {}
+    });
   }
 
   render();

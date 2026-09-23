@@ -2,11 +2,45 @@
   "name": "VISION STORE",
   "short_name": "VISION STORE",
   "description": "Еженедельная подборка красивых и полезных гаджетов.",
+  "id": "./",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "portrait-primary",
   "background_color": "#07090b",
   "theme_color": "#07090b",
+  "categories": [
+    "shopping",
+    "lifestyle"
+  ],
   "icons": [
-    {"src": "./favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Подборка недели",
+      "short_name": "Подборка",
+      "url": "./#drop"
+    },
+    {
+      "name": "Категории",
+      "short_name": "Категории",
+      "url": "./#categories"
+    }
   ]
 }
