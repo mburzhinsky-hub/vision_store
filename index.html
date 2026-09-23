@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#07090b" />
+  <meta name="description" content="VISION STORE — еженедельная подборка красивых, полезных и гиковских гаджетов." />
+  <title>VISION STORE — подборка недели</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="./site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css?v=1" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="app-shell" id="appShell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="VISION STORE">
+        <span class="brand-mark" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        </span>
+        <span class="brand-name">VISION STORE</span>
+        <span class="brand-divider"></span>
+        <span class="brand-note">отборная техника<br>для повседневной жизни</span>
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <a class="active" href="#drop">Главная</a>
+        <a href="#drop">Подборки</a>
+        <a href="#categories">Категории</a>
+        <a href="#about">О проекте</a>
+      </nav>
+
+      <button class="mobile-menu" id="mobileMenu" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Следующий сетап</p>
+          <h1 id="hero-title"><span>ПОДБОРКА</span> <b>01</b></h1>
+          <p class="hero-lead">5 вещей, которые делают телефонный сетап умнее, чище и приятнее каждый день.</p>
+        </div>
+
+        <div class="hero-side" aria-hidden="true">
+          <div class="plus-glyph">+</div>
+          <div class="hero-manifesto">
+            <span>МЕНЬШЕ ШУМА</span>
+            <span>БОЛЬШЕ ФУНКЦИИ</span>
+            <span>КРАСИВЕЕ КАЖДЫЙ ДЕНЬ</span>
+          </div>
+        </div>
+
+        <div class="hero-orbit" aria-hidden="true">
+          <span>ТЕХНОЛОГИИ<br>ДЛЯ ЛЮДЕЙ</span>
+          <i></i>
+        </div>
+      </section>
+
+      <section class="controls" id="categories" aria-label="Фильтры товаров">
+        <div class="filters" id="filters">
+          <button class="filter active" data-filter="all"><i></i>Все</button>
+          <button class="filter" data-filter="charging">Зарядка</button>
+          <button class="filter" data-filter="power">Питание</button>
+          <button class="filter" data-filter="wearables">Носимые</button>
+          <button class="filter" data-filter="carry">С собой</button>
+          <button class="filter" data-filter="utility">Полезное</button>
+        </div>
+        <label class="search" aria-label="Поиск по подборке">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4.5 4.5"></path></svg>
+          <input id="searchInput" type="search" placeholder="Найти в подборке…" autocomplete="off" />
+          <kbd>/</kbd>
+        </label>
+      </section>
+
+      <section class="drop" id="drop" aria-labelledby="drop-title">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow"><span></span> <span id="weekLabel">Эта неделя</span></p>
+            <h2 id="drop-title">Пять вещей. Один дроп.</h2>
+          </div>
+          <p>Никаких бесконечных каталогов — только короткая подборка того, что действительно хочется положить на стол, в карман или рюкзак.</p>
+        </div>
+
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+
+        <div class="empty-state" id="emptyState" hidden>
+          <span>00</span>
+          <strong>Ничего не нашли</strong>
+          <p>Попробуй другой фильтр или запрос.</p>
+        </div>
+      </section>
+
+      <section class="trust-strip" id="about">
+        <article>
+          <div class="trust-icon cubes" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div><strong>5 вещей / неделя</strong><span>Свежий дроп без перегруза.</span></div>
+        </article>
+        <article>
+          <div class="trust-icon link-icon" aria-hidden="true">↗</div>
+          <div><strong>Партнёрские ссылки</strong><span>Переход ведёт прямо на страницу товара.</span></div>
+        </article>
+        <article>
+          <div class="trust-icon star-icon" aria-hidden="true">☆</div>
+          <div><strong>Выбор редакции</strong><span>Полезно. Красиво. Без лишнего.</span></div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <div><strong>VISION STORE</strong><span></span><small>техника для более человеческого дня</small></div>
+      <p>Некоторые ссылки могут быть партнёрскими. Цена и наличие определяются маркетплейсом.</p>
+    </footer>
+  </div>
+
+  <script src="./data/products.js?v=1"></script>
+  <script src="./app.js?v=1" defer></script>
+</body>
+</html>
