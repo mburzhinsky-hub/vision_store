@@ -23,7 +23,7 @@ window.VISION_PRODUCTS = [
     subtitle: "10 000 мА·ч · 45 Вт",
     description: "Компактный пауэрбанк со встроенным USB-C кабелем и мощностью до 45 Вт. Тот случай, когда запас энергии не выглядит скучно.",
     microcopy: "МАЛЕНЬКИЙ. МОЩНЫЙ. ГОТОВЫЙ.",
-    image: "./assets/02-sharge.jpg?v=3",
+    image: "./assets/02-sharge.webp?v=5",
     url: "https://market.yandex.ru/cc/B8awHt",
     tags: ["10 000 мА·ч", "45 Вт", "USB-C"]
   },
