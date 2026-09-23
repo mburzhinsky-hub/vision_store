@@ -1,0 +1,12 @@
+{
+  "name": "VISION STORE",
+  "short_name": "VISION STORE",
+  "description": "Еженедельная подборка красивых и полезных гаджетов.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07090b",
+  "theme_color": "#07090b",
+  "icons": [
+    {"src": "./favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}
