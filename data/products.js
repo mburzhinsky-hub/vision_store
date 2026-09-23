@@ -23,7 +23,7 @@ window.VISION_PRODUCTS = [
     subtitle: "10 000 мА·ч · 45 Вт",
     description: "Компактный пауэрбанк со встроенным USB-C кабелем и мощностью до 45 Вт. Тот случай, когда запас энергии не выглядит скучно.",
     microcopy: "МАЛЕНЬКИЙ. МОЩНЫЙ. ГОТОВЫЙ.",
-    image: "https://cdn2.37left.lk/images/sharge-p3-flow-3-10000mah-45w-1C4LBt-MuEA8.webp",
+    image: "./assets/02-sharge.jpg?v=3",
     url: "https://market.yandex.ru/cc/B8awHt",
     tags: ["10 000 мА·ч", "45 Вт", "USB-C"]
   },
