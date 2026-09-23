@@ -9,7 +9,7 @@ window.VISION_PRODUCTS = [
     subtitle: "MagSafe-станция 4-в-1",
     description: "Складная станция для iPhone, Apple Watch и других устройств. Красивый индустриальный объект, который удобно брать с собой.",
     microcopy: "СЛОЖИЛ. ЗАРЯДИЛ. ПОЕХАЛ.",
-    image: "./assets/01-alumu.jpg",
+    image: "https://www.blessthisstuff.com/imagens/stuff/aulumu-m01-wireless-charging-station-9.jpg",
     url: "https://market.yandex.ru/cc/B8avMv",
     tags: ["MagSafe", "4-в-1", "USB-C"]
   },
@@ -23,7 +23,7 @@ window.VISION_PRODUCTS = [
     subtitle: "10 000 мА·ч · 45 Вт",
     description: "Компактный пауэрбанк со встроенным USB-C кабелем и мощностью до 45 Вт. Тот случай, когда запас энергии не выглядит скучно.",
     microcopy: "МАЛЕНЬКИЙ. МОЩНЫЙ. ГОТОВЫЙ.",
-    image: "./assets/02-sharge.jpg",
+    image: "https://cdn2.37left.lk/images/sharge-p3-flow-3-10000mah-45w-1C4LBt-MuEA8.webp",
     url: "https://market.yandex.ru/cc/B8awHt",
     tags: ["10 000 мА·ч", "45 Вт", "USB-C"]
   },
@@ -37,7 +37,7 @@ window.VISION_PRODUCTS = [
     subtitle: "1,43″ AMOLED · GPS · IP68",
     description: "Часы в духе Nothing: чистая геометрия, спокойный дизайн и нужный набор функций без ощущения мини-смартфона на запястье.",
     microcopy: "БОЛЬШЕ, ЧЕМ ПРОСТО ЧАСЫ.",
-    image: "./assets/03-cmf-watch.jpg",
+    image: "https://cdn.shopify.com/s/files/1/0568/8672/2619/files/CMFWatch3Pro-darkgrey_49ce74d7-a96f-4636-a04b-0d25392db6f7.png?crop=center&height=2000&v=1753070408&width=2000",
     url: "https://market.yandex.ru/cc/B8awYc",
     tags: ["AMOLED", "GPS", "IP68"]
   },
@@ -51,7 +51,7 @@ window.VISION_PRODUCTS = [
     subtitle: "MagSafe-органайзер",
     description: "Мини-кошелёк и органайзер, который примагничивается к телефону. Карты и мелочи остаются под рукой, а сетап — собранным.",
     microcopy: "МЕНЬШЕ В КАРМАНАХ.",
-    image: "./assets/04-moft-wallet.jpg",
+    image: "https://static.wixstatic.com/media/5dbc39_3e079f7498a048e5bc945107307096b3~mv2.jpg/v1/fill/w_980,h_980,al_c,q_85,enc_avif,quality_auto/5dbc39_3e079f7498a048e5bc945107307096b3~mv2.jpg",
     url: "https://market.yandex.ru/cc/B8awqb",
     tags: ["MagSafe", "Кошелёк", "Органайзер"]
   },
@@ -65,7 +65,7 @@ window.VISION_PRODUCTS = [
     subtitle: "Складной магнитный держатель",
     description: "Карманная подставка и держатель для съёмки: стол, поезд, самолёт или быстрый созвон. Складывается в компактное кольцо.",
     microcopy: "ПОСТАВИЛ. СНЯЛ. ПОЕХАЛ.",
-    image: "./assets/05-magnetic-stand.jpg",
+    image: "https://img.ricardostatic.ch/images/bb1c1ac9-5a3d-4c94-8165-062cd1018cc5/t_1000x750/mini-trepied-telephone-portable-magnetique-support-magsafe",
     url: "https://market.yandex.ru/cc/B8axXu",
     tags: ["MagSafe", "Подставка", "Travel"]
   }
